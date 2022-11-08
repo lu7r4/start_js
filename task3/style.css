@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+    font-size: 36px;
+    background-color: rgba(209, 198, 198, 0.5);
+}
+
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    margin:  150px auto;
+}
+
+.light__traffic {
+    height: 360px;
+    width: 100px;
+    background-color: rgb(218, 177, 177);
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1 fr);
+    gap: 15x;
+    padding: 30px 20px;
+    margin:  150px auto;
+
+}
+.round
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+
+}
+
+.back {
+    background-color: rgba(156, 39, 39, .5);
+    color: rgb(3, 59, 50);
+    width: 200px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 59, 50);
+}
+a:hover {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgba(156, 39, 39, .5);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+    color: white;
+    text-shadow: 5px 5px 5px #000;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
